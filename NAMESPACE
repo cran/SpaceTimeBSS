@@ -1,0 +1,15 @@
+importFrom(graphics, plot)
+
+export(stbss, stkmat, lacov)
+S3method(stbss, default)
+S3method(stbss, STFDF)
+S3method(stbss, STSDF)
+S3method(stbss, sftime)
+S3method(coef, stbss)
+S3method(print, stbss)
+
+useDynLib(SpaceTimeBSS, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+importClassesFrom(Matrix, dgCMatrix)
+
+

@@ -1,0 +1,17 @@
+062ffa9e7238a20136a66c4cd90927b6 *DESCRIPTION
+11be96f78d646c17922e5813510c1a66 *NAMESPACE
+3bd111f6bcc09fdff611f89269bf955e *R/RcppExports.R
+40e434ac0cf7a957f134a95b179a9121 *R/stbss.R
+7f89d877ebac14efa80fa097dd7cfdc3 *R/utils.R
+f1eb17181406a486c7bb173bbeb30222 *inst/ChangeLog.txt
+b609f63f564b9c95a4a239c0c7f59ac2 *man/SpaceTimeBSS-package.Rd
+cca2b4659fa32a62b4f40affdf40ffe2 *man/coef.stbss.Rd
+037178fa248361b2d6cfc6c56c146473 *man/lacov.Rd
+0df5d016ad9f11d0c5dd12034fd9868d *man/print.stbss.Rd
+3935b88455ab3f444998407b648b85cb *man/stbss.Rd
+2ad921e4664093c81052f7487cacc196 *man/stkmat.Rd
+61059660eb073d93e00e8ee054237071 *src/Makevars
+61059660eb073d93e00e8ee054237071 *src/Makevars.win
+f3624845ab2865237c70253aba2e4be0 *src/RcppExports.cpp
+947fe67cce0e76a1c71aca92ded6b579 *src/lacov.cpp
+8ba923f355c068545e6db33bc9e5d43d *src/stkmat.cpp
