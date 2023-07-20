@@ -1,5 +1,11 @@
 Version 0.2-0:
 
+* Changed maintainer
+* removed requirement for C++11
+* updating help files
+
+Version 0.2-0:
+
 * Added a climate/meteorological dataset
 
 Version 0.1-0:

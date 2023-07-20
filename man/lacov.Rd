@@ -58,7 +58,9 @@ Alternatively, a list of kernel matrices can be given directly to the function \
 \code{lacov} returns a list of length \code{K} where each entry is a numeric matrix of dimension \code{c(p, p)} corresponding to a local autocovariance matrix. 
 }
 
-
+\references{
+\cite{Muehlmann, C., De Iaco, S. and Nordhausen, K. (2023), Blind Recovery of Sources for Multivariate Space-Time Environmental Data. \emph{Stochastic and Environmental Research and Risk Assessment},  \bold{37}, 1593--1613, <doi:10.1007/s00477-022-02348-2>.}
+}
 
 \seealso{
 \code{\link{stkmat}}, \code{\link{stbss}}

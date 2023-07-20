@@ -48,6 +48,10 @@ The output of this function can be used with the function \code{\link{stbss}} to
 \code{stkmat} returns a list of length \code{K} containing numeric matrices of dimension \code{c(n,n)} corresponding to the spatio-temporal kernel matrices.
 }
 
+\references{
+\cite{Muehlmann, C., De Iaco, S. and Nordhausen, K. (2023), Blind Recovery of Sources for Multivariate Space-Time Environmental Data. \emph{Stochastic and Environmental Research and Risk Assessment},  \bold{37}, 1593--1613, <doi:10.1007/s00477-022-02348-2>.}
+}
+
 \seealso{
 \code{\link{stbss}}, \code{\link{lacov}}
 }

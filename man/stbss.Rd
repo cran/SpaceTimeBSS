@@ -105,6 +105,10 @@ If more than one local autocovariance matrix is used \code{stbss} jointly diagon
 
 }
 
+\references{
+\cite{Muehlmann, C., De Iaco, S. and Nordhausen, K. (2023), Blind Recovery of Sources for Multivariate Space-Time Environmental Data. \emph{Stochastic and Environmental Research and Risk Assessment},  \bold{37}, 1593--1613, <doi:10.1007/s00477-022-02348-2>.}
+}
+
 \seealso{
 \code{\link{stkmat}}, \code{\link[JADE]{frjd}}
 }

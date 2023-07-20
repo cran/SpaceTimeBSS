@@ -35,7 +35,7 @@ The evapotranspiration levels were estimated by ARPA Veneto according to the Har
 }
 
 \source{
-The raw data can be downloaded from the Environmental Protection Agency of Veneto Region (ARPA Veneto) website \url{https://www.arpa.veneto.it/bollettini/storico}.
+The raw data can be downloaded from the Environmental Protection Agency of Veneto Region (ARPA Veneto) website.
 }
 
 \keyword{datasets}

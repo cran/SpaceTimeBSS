@@ -13,8 +13,8 @@ Simultaneous/joint diagonalization of local autocovariance matrices to estimate 
 \tabular{ll}{
 Package: \tab SpaceTimeBSS\cr
 Type: \tab Package\cr
-Version: \tab 0.2-0 \cr
-Date: \tab 2022-11-29\cr
+Version: \tab 0.3-0 \cr
+Date: \tab 2023-07-20\cr
 License: \tab GPL (>= 2)\cr
 }
 
@@ -31,11 +31,15 @@ The available finite realizations of the space time random fields can be defined
 
 }
 
+\references{
+\cite{Muehlmann, C., De Iaco, S. and Nordhausen, K. (2023), Blind Recovery of Sources for Multivariate Space-Time Environmental Data. \emph{Stochastic and Environmental Research and Risk Assessment},  \bold{37}, 1593--1613, <doi:10.1007/s00477-022-02348-2>.}
+}
+
 \author{
 Christoph Muehlmann, Nikolaus Piccolotto, Claudia Cappello, Sandra De Iaco, Klaus Nordhausen
 
 Maintainer: 
-Christoph Muehlmann \email{christoph.muehlmann@tuwien.ac.at}
+Klaus Nordhausen \email{klausnordhausenR@gmail.com}
 }
 
 
