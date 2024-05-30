@@ -1,12 +1,12 @@
-93c8d6e603e98c13591166d6ec354751 *DESCRIPTION
+ce1426c572e59f0bc40941a78605fda2 *DESCRIPTION
 11be96f78d646c17922e5813510c1a66 *NAMESPACE
 3bd111f6bcc09fdff611f89269bf955e *R/RcppExports.R
 40e434ac0cf7a957f134a95b179a9121 *R/stbss.R
 7f89d877ebac14efa80fa097dd7cfdc3 *R/utils.R
 99e03bc128d023df1e060cb6f4b43683 *data/datalist
-a8e4d373138b8c44dbfee28633f7b47e *data/meteo_veneto.RData
-e22d21cc55fa3a25993d71c83b7fef3e *inst/ChangeLog.txt
-e2e8c80818028b3d853f25472c134c44 *man/SpaceTimeBSS-package.Rd
+b93c6f85fb34260c8c5d970751b3c9e4 *data/meteo_veneto.RData
+fe22da6534fcdd4a7786b087fa2fe0e7 *inst/ChangeLog.txt
+8dc6779e1fc15b8ec34777ee9fda51eb *man/SpaceTimeBSS-package.Rd
 cca2b4659fa32a62b4f40affdf40ffe2 *man/coef.stbss.Rd
 78e7c77d1271f29527b6f97239996a65 *man/lacov.Rd
 c1e62b8d60a596b94b92af272dc5ce1c *man/meteo_veneto.Rd
@@ -16,5 +16,5 @@ c1e62b8d60a596b94b92af272dc5ce1c *man/meteo_veneto.Rd
 6bcee6df7622505b45514c7fcc990ff2 *src/Makevars
 6bcee6df7622505b45514c7fcc990ff2 *src/Makevars.win
 f3624845ab2865237c70253aba2e4be0 *src/RcppExports.cpp
-947fe67cce0e76a1c71aca92ded6b579 *src/lacov.cpp
-8ba923f355c068545e6db33bc9e5d43d *src/stkmat.cpp
+7513a1eb9d057b383e34870b43e45aaa *src/lacov.cpp
+69c70053ab795a36f3661adce5ac8c33 *src/stkmat.cpp

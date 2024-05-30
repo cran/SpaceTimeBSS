@@ -53,7 +53,7 @@ arma::mat lacov_ball(const arma::mat & coords,
   for(int i=0; i < n; ++i) {
     for(int j=i+1; j < n; ++j) {
       distance = norm(coords.row(i) - coords.row(j));
-      lag = abs(time(i) - time(j));
+      lag = fabs(time(i) - time(j));
       if(distance <= h && lag == tau){
         L += x.row(i).t() * x.row(j);
         L += x.row(j).t() * x.row(i);
@@ -86,7 +86,7 @@ arma::mat lacov_ring(const arma::mat & coords,
   for(int i=0; i < n; ++i) {
     for(int j=i+1; j < n; ++j) {
       distance = norm(coords.row(i) - coords.row(j));
-      lag = abs(time(i) - time(j));
+      lag = fabs(time(i) - time(j));
       if(h1 < distance && distance <= h2 && lag == tau){
         L += x.row(i).t() * x.row(j);
         L += x.row(j).t() * x.row(i);
@@ -123,7 +123,7 @@ arma::mat lacov_gauss(const arma::mat & coords,
   for(int i=0; i < n; ++i) {
     for(int j=i+1; j < n; ++j) {
       distance = norm(coords.row(i) - coords.row(j));
-      lag = abs(time(i) - time(j));
+      lag = fabs(time(i) - time(j));
       if(lag == tau){
         f = exp(- 0.5 * pow(distance, 2) / h);
         L += f * x.row(i).t() * x.row(j);

@@ -1,8 +1,8 @@
 Package: SpaceTimeBSS
 Type: Package
 Title: Blind Source Separation for Multivariate Spatio-Temporal Data
-Version: 0.3-0
-Date: 2023-07-20
+Version: 0.4-0
+Date: 2024-05-29
 Authors@R: 
     c(person(given = "Christoph",
              family = "Muehlmann",
@@ -33,7 +33,7 @@ Imports: Rcpp (>= 1.0.2), JADE, Matrix, methods
 Suggests: sftime, sf, spacetime, xts, zoo
 LinkingTo: Rcpp, RcppArmadillo
 NeedsCompilation: yes
-Packaged: 2023-07-20 13:15:46 UTC; admin
+Packaged: 2024-05-29 12:22:27 UTC; admin
 Author: Christoph Muehlmann [aut] (<https://orcid.org/0000-0001-7330-8434>),
   Nikolaus Piccolotto [aut] (<https://orcid.org/0000-0001-6876-6502>),
   Claudia Cappello [aut] (<https://orcid.org/0000-0002-7905-5068>),
@@ -41,4 +41,4 @@ Author: Christoph Muehlmann [aut] (<https://orcid.org/0000-0001-7330-8434>),
   Klaus Nordhausen [aut, cre] (<https://orcid.org/0000-0002-3758-8501>)
 Depends: R (>= 3.5.0)
 Repository: CRAN
-Date/Publication: 2023-07-20 16:50:05 UTC
+Date/Publication: 2024-05-30 02:20:03 UTC

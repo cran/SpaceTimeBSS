@@ -1,4 +1,9 @@
-Version 0.2-0:
+Version 0.4-0:
+
+* fixing a note from the C++ code
+* updating help files
+
+Version 0.3-0:
 
 * Changed maintainer
 * removed requirement for C++11
